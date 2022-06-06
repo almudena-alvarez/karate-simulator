@@ -1,9 +1,7 @@
 name: Testing Flow
 
-on:
-  pull_request:
-    branches: [ main ]
-
+on: workflow_dispatch
+  
 jobs:
   call:
     uses: almudena-alvarez/composite-workflow-simulator/.github/workflows/composite-flow.yaml@first-workflow
