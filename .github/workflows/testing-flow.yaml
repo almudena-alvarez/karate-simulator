@@ -1,0 +1,11 @@
+name: Testing Flow
+
+on:
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  call:
+    uses: almudena-alvarez/composite-workflow-simulator/.github/workflows/composite-flow.yaml@main
+    secrets:
+      FIRST_SECRET: ${{ secrets.FIRST_SECRET }}
