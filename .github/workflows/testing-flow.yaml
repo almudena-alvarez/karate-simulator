@@ -3,7 +3,7 @@ name: Testing Flow
 on:
   push:
     branches:
-      - second-trial
+      - main
   
 jobs:
   call:
