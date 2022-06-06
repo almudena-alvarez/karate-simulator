@@ -1,6 +1,9 @@
 name: Testing Flow
 
-on: workflow_dispatch
+on:
+  push:
+    branches:
+      - second-trial
   
 jobs:
   call:
