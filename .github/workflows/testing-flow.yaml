@@ -6,6 +6,6 @@ on:
 
 jobs:
   call:
-    uses: almudena-alvarez/composite-workflow-simulator/.github/workflows/composite-flow.yaml@main
+    uses: almudena-alvarez/composite-workflow-simulator/.github/workflows/composite-flow.yaml@first-workflow
     secrets:
       FIRST_SECRET: ${{ secrets.FIRST_SECRET }}
