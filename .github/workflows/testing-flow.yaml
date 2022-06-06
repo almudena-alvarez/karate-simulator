@@ -4,6 +4,6 @@ on: workflow_dispatch
   
 jobs:
   call:
-    uses: almudena-alvarez/composite-workflow-simulator/.github/workflows/composite-flow.yaml@first-workflow
+    uses: almudena-alvarez/composite-workflow-simulator/.github/workflows/composite-testing.yaml@first-workflow
     secrets:
       FIRST_SECRET: ${{ secrets.FIRST_SECRET }}
