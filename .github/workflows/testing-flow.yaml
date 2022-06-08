@@ -9,5 +9,5 @@ on:
 jobs:
   call:
     uses: almudena-alvarez/composite-workflow-simulator/.github/workflows/reusable-workflow-testing.yaml@composite-branch
-    secrets:
-      FIRST_SECRET: ${{ secrets.FIRST_SECRET }}
+#     secrets:
+#       FIRST_SECRET: ${{ secrets.FIRST_SECRET }}
