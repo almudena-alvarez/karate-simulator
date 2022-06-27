@@ -8,6 +8,6 @@ on:
   
 jobs:
   call:
-    uses: almudena-alvarez/composite-workflow-simulator/.github/workflows/reusable-workflow-testing.yaml@main
+    uses: almudena-alvarez/composite-workflow-simulator/.github/workflows/checkvariable.yaml@main
 #     secrets:
 #       FIRST_SECRET: ${{ secrets.FIRST_SECRET }}
