@@ -5,8 +5,8 @@ on:
   
 jobs:
   call:
-    uses: almudena-alvarez/composite-workflow-simulator/.github/workflows/checkvariable.yaml@main
-    with:
-      first_input: "lalala"
-      array_input: "'jejeje','jfjfjf'"
-      execute: true
+    uses: almudena-alvarez/composite-workflow-simulator/.github/workflows/postgres-checking.yaml@main
+#     with:
+#       first_input: "lalala"
+#       array_input: "'jejeje','jfjfjf'"
+#       execute: true
