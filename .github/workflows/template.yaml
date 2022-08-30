@@ -19,10 +19,14 @@ jobs:
       - name: dir
         id: dir
         uses: almudena-alvarez/composite-workflow-simulator/.github/actions/create-temp-dir@main
+        with:
+            destination: "/home/runner/work/karate-simulator/karate-simulator"
       - name: dir echo
         id: direcho
         shell: bash
-        run: ls -lart
+        run: |
+            cd /home/runner/work/karate-simulator/karate-simulator
+            ls -lart
 #       - name: dir echo
 #         id: direcho
 #         shell: bash
