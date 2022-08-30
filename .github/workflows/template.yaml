@@ -23,7 +23,7 @@ jobs:
             destination: "/home/runner/work/karate-simulator/karate-simulator"
             destfile: "/home/runner/work/karate-simulator/karate-simulator/text.txt"
       - name: dir echo
-        id: direcho
+        id: direchos
         shell: bash
         run: |
             cd /home/runner/work/karate-simulator/karate-simulator
